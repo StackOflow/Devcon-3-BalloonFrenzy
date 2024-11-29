@@ -36,9 +36,11 @@ This includes:
 # Coding 
 Most coding was done through our own knowledge of C#, however we did use some guides to help with areas we were unsure of. 
 
-## _Others:_ - 
+## _Others:_ 
+Cannon Shooting And Trajectory- [Guide](https://www.youtube.com/watch?v=RnEO3MRPr5Y&list=LL&index=2) 
 
-## **_AI_**: - 
+## **_AI_**: 
+- Our Project Has 0% AI Usage 
 
 --- 
 
