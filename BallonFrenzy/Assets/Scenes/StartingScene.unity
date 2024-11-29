@@ -671,6 +671,7 @@ GameObject:
   - component: {fileID: 905571227}
   - component: {fileID: 905571229}
   - component: {fileID: 905571228}
+  - component: {fileID: 905571230}
   m_Layer: 5
   m_Name: Timer
   m_TagString: Untagged
@@ -794,6 +795,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 905571226}
   m_CullTransparentMesh: 1
+--- !u!114 &905571230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905571226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b820cff1e45a8444aa72ac54ce10df50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 905571228}
+  remainingTime: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
