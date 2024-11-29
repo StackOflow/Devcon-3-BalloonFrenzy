@@ -5,7 +5,9 @@ using UnityEngine;
 
 public class DrawTrajectory : MonoBehaviour
 {
-    // Code for trajectory | B.C
+    // Code for trajectory
+    // Reference: https://www.youtube.com/watch?v=RnEO3MRPr5Y&list=LL&index=2
+
     // Variables
     CannonController cannonController; // get instance of cannon controller
     LineRenderer lineRenderer; // declare line renderer

@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class CannonController : MonoBehaviour
 {
-    // Code for cannon controller | B.C
+    // Code for cannon controller
+    // Reference: https://www.youtube.com/watch?v=RnEO3MRPr5Y&list=LL&index=2
+
+
     // Variables
     public float rotationSpeed = 1; // Speed where player can turn the cannon left/right/up/down
     public float shootPower = 5; // Speed cannonball the cannon shoots out
