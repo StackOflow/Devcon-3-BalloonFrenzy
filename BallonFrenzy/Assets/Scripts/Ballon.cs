@@ -21,18 +21,13 @@ public class Ballon : MonoBehaviour
 
     public void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("POP"))
+        if (collision.gameObject.CompareTag("POP")) // if Balloon hits an object that pops it
         {
-            source.PlayOneShot(clip);
-            StartCoroutine(Wait());
-            Destroy(gameObject);
-        }
-    }
+            source.PlayOneShot(clip); // "POP"
 
-    IEnumerator Wait()
-    {
-        yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene(1);
+            Audiomanager.isPop = true;
+            Destroy(gameObject); // Destroy
+        }
     }
 
 

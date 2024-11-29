@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Audiomanager : MonoBehaviour
 {
+    public static bool isPop = false;
     [Header("-------- Audio Source --------")]
     [SerializeField] AudioSource MusicSource;
 
@@ -14,6 +16,20 @@ public class Audiomanager : MonoBehaviour
     {
         MusicSource.clip = Background;
         MusicSource.Play();
+    }
+
+    private void Update()
+    {
+        if (isPop)
+        {
+            StartCoroutine(Wait());
+        }
+    }
+
+    IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene(1); // Load Losing Scene
     }
 
 }
