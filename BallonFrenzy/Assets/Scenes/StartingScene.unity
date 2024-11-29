@@ -1091,49 +1091,8 @@ Transform:
   m_GameObject: {fileID: 1372744728}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< HEAD
   m_LocalPosition: {x: 0.0000000052683555, y: -0.63899994, z: 0.0000000052683564}
   m_LocalScale: {x: 0.31955, y: 0.77229285, z: 0.34661}
-=======
-  m_LocalPosition: {x: -4.9, y: 23.913145, z: -50.14314}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 14347834}
-  - {fileID: 1016984711}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2081750587
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2081750588}
-  - component: {fileID: 2081750591}
-  - component: {fileID: 2081750590}
-  - component: {fileID: 2081750589}
-  m_Layer: 0
-  m_Name: Wall1 (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2081750588
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2081750587}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 5.5, y: -38.6, z: 87.5}
-  m_LocalScale: {x: 26.7, y: 55.9, z: 4.2}
->>>>>>> Bri-CannonMechanic
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 14347834}
