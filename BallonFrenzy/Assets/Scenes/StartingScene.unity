@@ -1224,7 +1224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MusicSource: {fileID: 1668461792}
-  Background: {fileID: 8300000, guid: c5ca17d83f0a6fc4c86c7f82d191d815, type: 3}
+  Background: {fileID: 8300000, guid: b99a3d39e47c5d943acca1e1e329b9bf, type: 3}
 --- !u!4 &1668461794
 Transform:
   m_ObjectHideFlags: 0
