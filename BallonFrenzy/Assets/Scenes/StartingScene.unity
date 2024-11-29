@@ -227,6 +227,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1433026267}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &248421662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 248421664}
+  - component: {fileID: 248421663}
+  m_Layer: 0
+  m_Name: Garbage Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &248421663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248421662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c6cdb6f84b99814b9e0c2355d106dac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Garbage1: {fileID: 3311844407806234517, guid: 9ef40fc1538ac2c42a6082e406e1b9c2, type: 3}
+  Garbage2: {fileID: 3029513784067628314, guid: a385a1799a66887478bc0367a994ff16, type: 3}
+--- !u!4 &248421664
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248421662}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.04, y: 37.810074, z: -44.19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &611502758
 GameObject:
   m_ObjectHideFlags: 0
@@ -1246,3 +1292,4 @@ SceneRoots:
   - {fileID: 2091913136}
   - {fileID: 1207437939}
   - {fileID: 1433026267}
+  - {fileID: 248421664}
