@@ -1,11 +1,11 @@
-# **Ballon Frenzy** 
+# **Balloon Frenzy** 
 ## Introduction 
 > **T**his game is our take on a "simcade" video game. We incorporated a typical static ballon game, and added Physics to it!
 
 > Enjoy! and Protect That Ballon.
 
 ## Outline: 
-### Out game is a 3D Ballon Shooter Survival Game where you protect your ballon from falling objects. These objects will try to pop the ballon and as the player, you will control a cannon to stop those objects. Our entire premise of our game is to be a ballon survival. 
+### Out game is a 3D Balloon Shooter Survival Game where you protect your ballon from falling objects. These objects will try to pop the ballon and as the player, you will control a cannon to stop those objects. Our entire premise of our game is to be a balloon survival. 
 - We envision our user’s to have a interesting and fun experience with a bit of humor to it. We want our players to feel attached to this ballon and will try everything in their power to save it. Finally, we wanted to stand out from all other survival games out there.
 - The larger vision of our game is to add a physic based system to create a simcade survival game.
   
@@ -52,3 +52,19 @@ Graphic and genre
 
 Objective
 The objective of the game is to surive as long as possible while protecting the ballon from objects trying to **"pop"** it
+
+---
+
+# Playtest Questions
+For our playtest, we had three questions for our peers to answer regarding our prototype:
+1. _Did our game incorporated physics? How so?_
+2. _What Part of our game did you like? vs Did not?_
+3. _What feedback would you give?_
+
+# Feedback
+- _Speed of the firing force of the cannon could be faster_
+- _Slow down the gravity of the falling objects_
+- _Lower the color intensity of the win and loss screen_
+- _Have the game be more on theme with the Christmas design we're going for_
+
+
