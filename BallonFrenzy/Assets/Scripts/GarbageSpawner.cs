@@ -46,7 +46,7 @@ public class GarbageSpawner : MonoBehaviour
     private IEnumerator Wait()
     {
         int randomIndex = UnityEngine.Random.Range(0, myObjects.Length);
-        Vector3 randomSpawnPosition = new Vector3(UnityEngine.Random.Range(-1, 1), 70, UnityEngine.Random.Range(-1, 1));
+        Vector3 randomSpawnPosition = new Vector3(UnityEngine.Random.Range(-5, 5), 70, UnityEngine.Random.Range(-5, 5));
 
         Instantiate(myObjects[randomIndex], randomSpawnPosition, Quaternion.identity);
         yield return null;
