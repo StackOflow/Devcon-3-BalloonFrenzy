@@ -27,6 +27,7 @@ public class GarbageSpawner : MonoBehaviour
         {
             // When the cannonball is created it will set its velocity
             // that is outwards from the cannon
+            Vector3 position = new(Random.Range(-3.5f, 3.5f), 49, z: -45.2f);
             GameObject NewGarbage2 = Instantiate(Garbage2);
         }
     }
