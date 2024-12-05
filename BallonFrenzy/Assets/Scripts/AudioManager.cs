@@ -29,7 +29,8 @@ public class Audiomanager : MonoBehaviour
     IEnumerator Wait()
     {
         yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene(1); // Load Losing Scene
+        isPop = false;
+        SceneManager.LoadScene(2); // Load Losing Scene
     }
 
 }
