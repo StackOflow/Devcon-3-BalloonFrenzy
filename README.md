@@ -5,5 +5,5 @@ Team 4 Repo for Devcon 3
 You play as the cannon and your task is to protect the ballon from falling debris.
 Your controls are:
 
-Space: Shoot CannonBalls
-AWSD: Move Cannon
+Left Mouse Click: Shoot CannonBalls
+Mouse: Move Cannon
