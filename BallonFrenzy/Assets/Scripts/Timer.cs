@@ -23,7 +23,7 @@ public class Timer : MonoBehaviour
         int seconds = Mathf.FloorToInt(remainingTime % 60); // Seconds
         timerText.text = string.Format("Time Survived:" + "{0:00}:{1:00}", minutes, seconds);
 
-        if (remainingTime > 180) //  Once the timer hits 3 min
+        if (remainingTime > 60) //  Once the timer hits 1 min (changed from 3 min)
         {
             SceneManager.LoadScene(3); //load win screen
         }
