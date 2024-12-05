@@ -270,7 +270,7 @@ Transform:
   m_GameObject: {fileID: 63782157}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.31, y: -30.6, z: 141.01}
+  m_LocalPosition: {x: -7.31, y: -29, z: 141.01}
   m_LocalScale: {x: 27.646336, y: 16.16459, z: 2.2691991}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1117,7 +1117,7 @@ MonoBehaviour:
   myObjects:
   - {fileID: 3150404317973270751, guid: f42bd2574fbce4b4b98aed922dd7b44d, type: 3}
   - {fileID: 125242, guid: 10a9cb4554200574dbe94e4026ff0b59, type: 3}
-  spawnInterval: 1
+  spawnInterval: 1.5
 --- !u!4 &571911299
 Transform:
   m_ObjectHideFlags: 0
@@ -2015,13 +2015,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1165052110}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.23344536, y: 0, z: 0, w: 0.97236997}
-  m_LocalPosition: {x: -7.31, y: -7.17, z: 148.46}
+  m_LocalRotation: {x: 0.29419047, y: -0, z: -0, w: 0.9557469}
+  m_LocalPosition: {x: -7.31, y: -5.06, z: 149.98}
   m_LocalScale: {x: 27.646336, y: 11.368076, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2091913136}
-  m_LocalEulerAnglesHint: {x: 27, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 34.218, y: 0, z: 0}
 --- !u!65 &1165052112
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2531,7 +2531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 5
-  shootPower: 30
+  shootPower: 25
   CannonBall: {fileID: 752338218810241995, guid: ca28131254db68244bde65efc5fe8fd9, type: 3}
   ShotPoint: {fileID: 1207437941}
 --- !u!120 &1207437944
@@ -3704,7 +3704,7 @@ Transform:
   m_GameObject: {fileID: 1832248914}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -15.64, y: -33.6, z: 144.0527}
+  m_LocalPosition: {x: -14.44, y: -33.6, z: 144.0527}
   m_LocalScale: {x: 1, y: 2.3573, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
