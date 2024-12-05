@@ -8,5 +8,3 @@ Your controls are:
 Left Mouse Click: Shoot CannonBalls
 Mouse: Move Cannon
 
-
-# MERRY CHRISTMAS!
