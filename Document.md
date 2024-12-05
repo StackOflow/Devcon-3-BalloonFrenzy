@@ -26,7 +26,7 @@ The goal of our survival game was to shoot a pellet (Cannonball) at objects to p
 --- 
 
 # Citation 
-The one Asset we used was called **"Stylish Cannon Pack"** 
+The Main Asset we used was called **"Stylish Cannon Pack"** 
 This includes: 
 1. _Materials_
 2. _Cannon Prefabs_
@@ -46,14 +46,22 @@ Cannon Shooting And Trajectory- [Guide](https://www.youtube.com/watch?v=RnEO3MRP
 
 ARTWORK: 
 ### Outside of The Package’s Sprites, there where some outside resources used for sprites 
->
 
+### Nature Pack
+- Landscape
+- UI
+### Christmas Toys [Assets](https://assetstore.unity.com/packages/package/106607)
+- Prefabs
+- Materials
+
+---
 Graphic and genre 
 > The Graphic of our game is in 3D and was made in Unity.
 > The Genre is a Fun Survival Game The objective of the game
 
-Objective
-The objective of the game is to surive as long as possible while protecting the ballon from objects trying to **"pop"** it
+
+## Objective
+The objective of the game is to survive as long as possible while protecting the ballon from objects trying to **"pop"** it
 
 ---
 
