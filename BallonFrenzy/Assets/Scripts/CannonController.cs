@@ -21,15 +21,15 @@ public class CannonController : MonoBehaviour
     {
         // Reads input from a and d keys
         // and w and s keys
-        float HorizontalRotation = Input.GetAxis("Horizontal");
-        float VerticalRotation = Input.GetAxis("Vertical");
+        float HorizontalRotation = Input.GetAxis("Mouse X");
+        float VerticalRotation = Input.GetAxis("Mouse Y");
 
         // Current rotation rotates on its y axis not x axis
         transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles +
-            new Vector3(0, HorizontalRotation * rotationSpeed, VerticalRotation * rotationSpeed));
+            new Vector3(0, HorizontalRotation * rotationSpeed, VerticalRotation * -rotationSpeed));
 
         // Shoot cannonball
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             // When the cannonball is created it will set its velocity
             // that is outwards from the cannon
