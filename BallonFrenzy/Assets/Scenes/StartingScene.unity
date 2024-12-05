@@ -850,7 +850,7 @@ BoxCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
@@ -1115,8 +1115,8 @@ MonoBehaviour:
   Garbage1: {fileID: 3311844407806234517, guid: 9ef40fc1538ac2c42a6082e406e1b9c2, type: 3}
   Garbage2: {fileID: 3029513784067628314, guid: a385a1799a66887478bc0367a994ff16, type: 3}
   myObjects:
-  - {fileID: 3311844407806234517, guid: 9ef40fc1538ac2c42a6082e406e1b9c2, type: 3}
-  - {fileID: 3029513784067628314, guid: a385a1799a66887478bc0367a994ff16, type: 3}
+  - {fileID: 3150404317973270751, guid: f42bd2574fbce4b4b98aed922dd7b44d, type: 3}
+  - {fileID: 125242, guid: 10a9cb4554200574dbe94e4026ff0b59, type: 3}
   spawnInterval: 1
 --- !u!4 &571911299
 Transform:
@@ -1286,7 +1286,7 @@ BoxCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
@@ -2121,8 +2121,8 @@ Transform:
   m_GameObject: {fileID: 1173236985}
   serializedVersion: 2
   m_LocalRotation: {x: -0.29116413, y: -0, z: -0, w: 0.95667315}
-  m_LocalPosition: {x: -7.31, y: -0.55, z: 132.91}
-  m_LocalScale: {x: 27.646336, y: 29.221167, z: 1.2236}
+  m_LocalPosition: {x: -7.31, y: 3.42, z: 129.88}
+  m_LocalScale: {x: 27.646336, y: 37.92615, z: 1.8558342}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2091913136}
@@ -2453,6 +2453,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 364581046671338721, guid: 2cd48446140ab424b80f0a9695bcaabc, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 364581046671338727, guid: 2cd48446140ab424b80f0a9695bcaabc, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 364581046671338731, guid: 2cd48446140ab424b80f0a9695bcaabc, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 364581046671338745, guid: 2cd48446140ab424b80f0a9695bcaabc, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 364581046671338751, guid: 2cd48446140ab424b80f0a9695bcaabc, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 364581046673424969, guid: 2cd48446140ab424b80f0a9695bcaabc, type: 3}
       propertyPath: m_Name
       value: Cannon
@@ -2512,7 +2532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 5
   shootPower: 30
-  CannonBall: {fileID: 5256839366354425349, guid: 6bcc1dfe1e0ab5e429d36a48543d4e14, type: 3}
+  CannonBall: {fileID: 752338218810241995, guid: ca28131254db68244bde65efc5fe8fd9, type: 3}
   ShotPoint: {fileID: 1207437941}
 --- !u!120 &1207437944
 LineRenderer:
@@ -3228,7 +3248,7 @@ BoxCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
@@ -3811,7 +3831,7 @@ BoxCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
@@ -4020,10 +4040,10 @@ Transform:
   - {fileID: 611502759}
   - {fileID: 702964878}
   - {fileID: 2081750588}
-  - {fileID: 1173236986}
   - {fileID: 1459852542}
   - {fileID: 217113717}
   - {fileID: 1165052111}
+  - {fileID: 1173236986}
   - {fileID: 1444415514}
   - {fileID: 63782158}
   - {fileID: 342793416}
