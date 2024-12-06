@@ -1,12 +1,12 @@
 # **Balloon Frenzy** 
 ## Introduction 
-> **T**his game is our take on a "simcade" video game. We incorporated a typical static ballon game, and added Physics to it!
+> **T**his game is our take on a "simcade" video game. We incorporated a typical static balloon game, and added physics to it!
 
-> Enjoy! and Protect That Ballon.
+> Enjoy :) Protect That Balloon!
 
 ## Outline: 
-### Out game is a 3D Balloon Shooter Survival Game where you protect your ballon from falling objects. These objects will try to pop the ballon and as the player, you will control a cannon to stop those objects. Our entire premise of our game is to be a balloon survival. 
-- We envision our user’s to have a interesting and fun experience with a bit of humor to it. We want our players to feel attached to this ballon and will try everything in their power to save it. Finally, we wanted to stand out from all other survival games out there.
+### Out game is a 3D Balloon Shooter Survival Game where you protect your balloon from falling objects. These objects will try to pop the balloon and as the player, you will control a cannon to stop those objects. Our entire premise of our game is to be a balloon survival. 
+- We envision our user’s to have a interesting and fun experience with a bit of humor to it. We want our players to feel attached to this balloon and will try everything in their power to save it. Finally, we wanted to stand out from all other survival games out there.
 - The larger vision of our game is to add a physic based system to create a simcade survival game.
   
 ---
@@ -20,10 +20,16 @@ The goal of our survival game was to shoot a pellet (Cannonball) at objects to p
 -	_Boss Event_
 
 ## Map Layout 
-### The layout of our game is a Long Box with the cannon and the ballon being at the bottom, and debris comming from the top. You play as a **Cannon** defending the **Ballon** from **_Debris._** Our game was designed soley for PC/Laptop interface. Our soundtrack is to have a _fun day adventure_ vibe as the players feel without a care in the world. 
+### The layout of our game is a Long Box with the cannon and the balloon being at the bottom, and debris comming from the top. You play as a **Cannon** defending the **Balloon** from **_Debris._** Our game was designed soley for PC/Laptop interface. Our soundtrack is to have a _fun day adventure_ vibe as the players feel without a care in the world. 
 
 --- 
---- 
+
+# Metric Research and References
+In our game, we used a cannon to shoot up at falling objects from the top. 
+
+The cannon was initially scaled to be bigger but we noticed that the mass of the cannonballs was heavier and the speed was much slower after being fired. However, after playtesting our first prototype we found that rescaling the cannon and cannonballs to a smaller size allowed the mass to be lighter and the speed to be faster. 
+
+In our final release, we decided to scale the cannonball up to a slightly bigger size to increase the mass and decrease the speed. This would make the gameplay experience less difficult and more fair for the player.
 
 # Citation 
 The Main Asset we used was called **"Stylish Cannon Pack"** 
