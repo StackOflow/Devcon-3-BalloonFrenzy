@@ -5,7 +5,7 @@
 > Enjoy :) Protect That Balloon!
 
 ## Outline: 
-### Out game is a 3D Balloon Shooter Survival Game where you protect your balloon from falling objects. These objects will try to pop the balloon and as the player, you will control a cannon to stop those objects. Our entire premise of our game is to be a balloon survival. 
+### Our game is a 3D Balloon Shooter Survival Game where you protect your balloon from falling objects. These objects will try to pop the balloon and as the player, you will control a cannon to stop those objects. Our entire premise of our game is to be a balloon survival. 
 - We envision our user’s to have a interesting and fun experience with a bit of humor to it. We want our players to feel attached to this balloon and will try everything in their power to save it. Finally, we wanted to stand out from all other survival games out there.
 - The larger vision of our game is to add a physic based system to create a simcade survival game.
   
